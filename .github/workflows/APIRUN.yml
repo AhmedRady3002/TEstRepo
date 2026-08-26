@@ -10,4 +10,4 @@ jobs:
 
       steps:
         - name: print a welcome message
-          run: echo "welocome to firstWorkFlow"
+          run: echo "welocome to Incident report"
