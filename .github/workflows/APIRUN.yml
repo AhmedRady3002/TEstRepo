@@ -1,4 +1,4 @@
-name: FirstWorkFlow
+name: APIFLOW
 
 on:
   repository_dispatch: 
