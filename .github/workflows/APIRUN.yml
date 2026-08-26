@@ -1,0 +1,13 @@
+name: FirstWorkFlow
+
+on:
+  repository_dispatch: 
+     types: [incident_report]
+     
+jobs:
+    Api_Request:
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: print a welcome message
+          run: echo "welocome to firstWorkFlow"
